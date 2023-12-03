@@ -13,6 +13,8 @@
     <img src="resources/images/404.jpg" id="image-404" alt="Suit wearing unicycling unicorn">
     <h2>Making it right now</h2>
 
-    <script src="js/404.js"></script>
+    <script>
+        document.getElementById("url-header").innerText = window.location.href.replace("http://", "").replace("https://", "");
+    </script>
 </body>
 </html>

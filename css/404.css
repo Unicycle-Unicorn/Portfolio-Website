@@ -1,0 +1,18 @@
+body {
+    background-color: #201d22;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+#image-404 {
+    max-width: 50%;
+    margin: 1%;
+    max-height: 50vh;
+    width: auto;
+    height: auto;
+}

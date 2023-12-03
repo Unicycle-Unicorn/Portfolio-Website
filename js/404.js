@@ -1,0 +1,1 @@
+document.getElementById("url-header").innerText = document.referrer.replace("http://", "").replace("https://", "");

@@ -16,3 +16,8 @@ body {
     width: auto;
     height: auto;
 }
+
+h2 {
+    font-size:calc(100% + 2vw);
+    margin: 10px;
+}

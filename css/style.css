@@ -1,0 +1,14 @@
+body {
+    background-color: #201d22;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#header {
+    width: 100%;
+    border: none;
+    height: auto;
+}

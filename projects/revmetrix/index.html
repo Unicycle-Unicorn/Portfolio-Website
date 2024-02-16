@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../../resources/images/404Removed.png" type="image/x-icon">
+    <link rel="icon" href="/resources/images/Icon.png" type="image/x-icon">
     <title>Braden Fleming's Portfolio</title>
-    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
-    <script src="../../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 <body data-bs-theme="dark" class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
@@ -19,16 +19,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item ms-4">
-                        <a class="nav-link" href="../..">Home</a>
+                        <a class="nav-link" href="">Home</a>
                     </li>
                     <li class="nav-item ms-4">
-                        <a class="nav-link" href="../../education">Education</a>
+                        <a class="nav-link" href="/education">Education</a>
                     </li>
                     <li class="nav-item ms-4">
-                        <a class="nav-link active" aria-current="page" href="../../projects">Projects</a>
+                        <a class="nav-link active" aria-current="page" href="/projects">Projects</a>
                     </li>
                     <li class="nav-item ms-4">
-                        <a class="nav-link" href="../../work-experience">Work Experience</a>
+                        <a class="nav-link" href="/work-experience">Work Experience</a>
                     </li>
                 </ul>
             </div>
@@ -37,7 +37,37 @@
     
     <!-- Content -->
     <main class="flex-grow-1 p-5">
-        The page
+        <div class="row justify-content-center">
+            <div class="col-xxl-8 col-xl-11">
+                <h6 class="tags text-center m-0">
+                    <span class="badge bg-danger">Visual Studio</span>
+                    <span class="badge bg-danger">CICD</span>
+                    <span class="badge bg-danger">Docker</span>
+                    <span class="badge bg-danger">Testing</span>
+                    <span class="badge bg-success">.NET</span>
+                    <span class="badge bg-success">ASP .NET</span>
+                    <span class="badge bg-primary">Teamwork</span>
+                    <span class="badge bg-primary">Software Development & Planning</span>
+                    <span class="badge bg-primary">Leadership</span>
+                </h6>
+                <h4 class="m-0 text-center">
+                    <a href="https://github.com/YCP-Rev-Metrix" class="btn m-0" target="_blank">
+                        <i class="fab fa-github"></i> https://github.com/YCP-Rev-Metrix
+                    </a>
+                    <a href="https://docs.revmetrix.io" class="btn m-0" target="_blank">
+                        <i class="fas fa-globe"></i> https://docs.revmetrix.io
+                    </a>
+                </h4>
+                <h1 class="text-center m-0">RevMetrix</h1>
+                <hr>
+                <article class="ps-lg-5">
+                    <p>During my last semester at York College, Professor Hake and Dr. Babcock guided a team of 13 and I on a passion project to develop their long-standing project to develop a bowling application to assist professionals in bowling optimally. This project would consist of a mobile application, a sensor implanted in the bowling ball, a camera, a simulator, and a web api with databases. During this, I lead the team in meetings, presentations, and overall design (simplified example shown below).</p>
+                    <img class="img-fluid mx-auto d-block rounded-3 p-lg-5 p-xxl-5 p-xl-5" src="/resources/images/RevMetrix_Architecture.png" alt="RevMetrix architecture overview">
+                    <p>When not in a leadership role, I spent most of my time developing the Web API with 3 other members in ASP .NET. At the end of the semester, our final result was a docker container hosted on Digital Ocean with two SQL server databases and an ASP .NET web api with security (not fully implemented) for use from the mobile application. The resulting server UML may be seen below. When not developing the server, I would be contributing documentation to the RevMetrix website, primarily <a href="https://docs.revmetrix.io/how-to-contribute/webapi">https://docs.revmetrix.io/how-to-contribute/webapi</a> where I detailed how http traffic works, controllers, endpoints. I also wrote a section on the basics of web api and database security and how the client is able to interact with the api.</p>
+                    <img class="img-fluid mx-auto d-block rounded-3 p-lg-5 p-xxl-5 p-xl-5" src="/resources/images/RevMetrix_Server_UML.png" alt="RevMetrix server class diagram">
+                </article>
+            </div>
+        </div>
     </main>
     
     <!-- Footer -->
